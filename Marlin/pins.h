@@ -658,7 +658,7 @@
   #if MB(RAMPS_13_EFB) || MB(RAMPS_13_EFF) || MB(AZTEEG_X3) || MB(AZTEEG_X3_PRO)
     #define FAN_PIN            4 // (Sprinter config)
   #else
-    #define FAN_PIN            6 // IO pin. Buffer needed
+    #define FAN_PIN            9 //6 // IO pin. Buffer needed
   #endif
 
   #if MB(3DRAG) || MB(RAMPS_13_EEF)
@@ -686,7 +686,7 @@
   #if MB(RAMPS_13_EFB) || MB(AZTEEG_X3)
     #define HEATER_1_PIN       -1
   #else
-    #define HEATER_1_PIN       9    // EXTRUDER 2 (FAN On Sprinter)
+    #define HEATER_1_PIN       7    // EXTRUDER 2 (FAN On Sprinter)
   #endif
 
 
