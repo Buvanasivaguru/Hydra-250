@@ -723,7 +723,7 @@
     #if MB(3DRAG)
       #define HEATER_BED_PIN     8    // BED
     #else
-      #define HEATER_BED_PIN     63    // BED
+      #define HEATER_BED_PIN     8    // BED
     #endif
   #endif
 
